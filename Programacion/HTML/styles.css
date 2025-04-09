@@ -10,9 +10,10 @@ body {
 }
 header,footer { /* estilos para el header y footer */
     background-color: #ffffff; /* color del fondo del header */
-    color: #ffcd87; /* color del texto del header */
+    color: #000000; /* color del texto del header */
     padding: 20px; /* espaciado interno del header */
     text-align: center; /* centrar el texto del header */
+    border-radius: 10px; /* bordes redondeados */
 }
 nav a{ /* estilos para el nav */
     background-color: #ffffff; /* color del fondo del nav */
@@ -22,4 +23,33 @@ nav a{ /* estilos para el nav */
 }
 h1,h2{ /* estilos para los titulos */
     color: #000000; /* color del texto de los titulos */
+}
+form{ /* estilos para el formulario */
+    background-color: #ffffff; /* color del fondo del formulario */
+    color: #000000; /* color del texto del formulario */
+    padding: 20px; /* espaciado interno del formulario */
+    text-align: center; /* alinear el texto a la izquierda */
+    border-radius: 5px; /* bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra del formulario */
+    margin-bottom: 20px; /* margen inferior del formulario */
+
+}
+input, textarea{ /* estilos para los inputs y textarea */
+    width: 20%;
+    background-color: #ffffff; /* color del fondo de los inputs y textarea */
+    margin: 10px; /* margen entre los inputs y textarea */
+    padding: 10px; /* espaciado interno de los inputs y textarea */
+    border-radius: 5px; /* bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra de los inputs y textarea */
+    border: 2px solid #000000;
+    color: #000000;
+}
+button{ /* estilos para el boton */
+    background-color: #000000; /* color del fondo del boton */
+    color: #ffffff; /* color del texto del boton */
+    padding: 20px; /* espaciado interno del boton */
+    border-radius: 5px; /* bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra del boton */
+    border: none; /* sin borde */
+    cursor: pointer; /* cursor de mano */
 }
