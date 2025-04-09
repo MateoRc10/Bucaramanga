@@ -1,0 +1,25 @@
+/* Aca le doy estilos a mi body */
+body {
+    
+    background-color: #ffdea9;
+    font-family:Georgia, 'Times New Roman', Times, serif; /* cambiar la fuente */
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* centrar el texto */
+}
+header,footer { /* estilos para el header y footer */
+    background-color: #ffffff; /* color del fondo del header */
+    color: #ffcd87; /* color del texto del header */
+    padding: 20px; /* espaciado interno del header */
+    text-align: center; /* centrar el texto del header */
+}
+nav a{ /* estilos para el nav */
+    background-color: #ffffff; /* color del fondo del nav */
+    color: #000000; /* color del texto del nav */
+    padding: 10px; /* espaciado interno del nav */
+    text-align: center; /* centrar el texto del nav */
+}
+h1,h2{ /* estilos para los titulos */
+    color: #000000; /* color del texto de los titulos */
+}
